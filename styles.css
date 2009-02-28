@@ -1,0 +1,14 @@
+html, body{ margin: 0; padding: 0; background: #EAF2F4; color: #FFF; font-size: 16px; font-family: "Lucida Grande", "Arial";}
+#contenido{ background: #FFF url(/fondo.gif) repeat-x 0 -60px; color: #646768;}
+p#logo{ margin: 0; padding: 0 0 80px 0; text-align: center;}
+h1{font-weight: normal;}
+h1, p{ font-size: 130%; margin: 0; padding: 30px 0 50px 0; text-align: center;}
+#efecto-rails{ text-align: left;}
+#efecto-rails{ position: relative; padding: 10px 50px 50px 10px; margin: 0; background: #0682d9; color: #FFF;}
+#efecto-rails a{ font-size: 90%; position: absolute; left: 10px; top: 65px; padding: 10px 0 0 0; color: #FFF; text-decoration: none;}
+html>body #efecto-rails a{ top: 40px; left: 10px;}
+#pie{ font-size: 60%; color: #A9F2FF; padding-top:60px;}
+#pie p{ margin: 0; padding: 10px 0 0; color: #0682d9;}
+#pie a{ color: #0682d9; font-weight:bold;}
+strong{ font-size: 120%;}
+#efecto-rails a:hover, #pie a:hover{ color: #D86137; }
