@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Marcos Arias / {{ page.title }}</title>
+	<meta charset="utf-8" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<meta name="description" content="Coding as Art. Ruby, Javascript, HTML5, CSS3, PHP, Flash whatever falls into my hands." />
+	<meta name="author" content="Marcos Arias" />
+	
+	<meta name="copyright" content="No Rights Reserved." />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+  <link rel="stylesheet" href="https://github.com/paulirish/html5-boilerplate/raw/master/css/style.css" type="text/css" media="all"/>
+  
+  <script>
+  (function() {
+    var link = document.getElementsByTagName("head")[0].appendChild(document.createElement("link"));
+    link.setAttribute('rel', "stylesheet");
+    link.setAttribute('href', (/file\:/.test(window.location)) ? "../../shared_css/styles.css" : "https://gist.github.com/raw/915939/styles.css" );
+  })();
+  </script>
+</head>
+<body>
+  
+  {{ content }}
+  
+  <footer>
+    <div class="container">
+      <p>{{ page.footnote }}<a href="http://twitter.com/yizzreel">Follow me <span>twitter</span></a> or <em title="Marcos Arias<yizzreel /at/ gmail /dot/ com>">drop me a line</em>.</p>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-1.5.2.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
