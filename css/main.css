@@ -1,0 +1,27 @@
+/*
+  Main colors (pastel):
+    #ABD1C9 -> blue
+    #EEE5C7 -> beige
+    #DA4845 -> red
+    #98C5D0 -> vivid blue
+    #DA674F -> orange
+    #578894 -> dark blue
+    #351C20 -> dark red
+*/
+
+body { font: 16px/1.5 'Otari-Bold-Limited', Georgia, times; }
+pre { padding: 15px; }
+h1 { font-size: 1.5em; }
+h2{ font-size: 2em; }
+h3{ font-size: 1.25em; }
+label { font-weight: bold; }
+table{ width: 100%; }
+strong{ font-weight: bold; }
+em{ font-style: normal; }
+
+.container {
+  width: 59.375em; /* 940px with 16px of base font size */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}

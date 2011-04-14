@@ -1,0 +1,77 @@
+/** CSS3 Coolness here **/
+/*
+  Main colors (pastel):
+    #ABD1C9 #8DB7B6 -> blue
+    #EEE5C7 -> beige
+    #DA4845 #D45855 -> red
+    #98C5D0 -> vivid blue
+    #DA674F -> orange
+    #578894 -> dark blue
+    #351C20 -> dark red
+*/
+
+body{
+  color: #492124;
+  background: #ABD1C9;
+}
+
+a, a:visited, a:link{
+  color: #EEE5C7;
+  background: rgba(218,72,69,.3);
+  padding: 0 .3em .1em;
+  border-radius: .2em;
+  text-decoration: none;
+  text-shadow: 0 2px 1px #DA4845;
+}
+a:hover{
+  background: #DA4845;
+  text-shadow: 0 1px 1px #000;
+  -webkit-animation : hover .5s 1 normal; 
+  -webkit-animation-fill-mode : both;
+}
+
+@-webkit-keyframes hover {
+0% { background: rgba(218,72,69,.3); text-shadow: 0 2px 1px #DA4845;}
+100% { background: #DA4845; text-shadow: 0 1px 1px #000; }
+}
+
+header{
+  color: #EEE5C7;
+  background: #DA4845;
+}
+header h1{
+  padding: 1em 0;
+  text-shadow: 0 2px 1px #351C20;
+}
+
+#intro{
+  line-height: 1.35;
+  margin: 2em 0 2em;
+  padding: 1.5em 2em;
+  background: #8DB7B6;
+  -moz-border-radius: .4em;
+  border-radius: .4em;
+  color: #EEE5C7;
+  text-shadow: 1px 1px 1px #578894, 1px 2px 1px #578894, 1px 3px 1px #578894, 1px 4px 1px #578894;
+}
+#intro h2{
+  font-size: 3em;
+}
+#intro p{
+  text-align: right;
+  color: #C38A84;
+  text-shadow: 0 1px 1px #EEE5C7;
+}
+#self{
+  font-size: 2em;
+  padding: 1em 0;
+  margin: .5em 0 1em;
+}
+article.contents{
+  padding: 1em 0;
+  margin: 1em 0 2em;
+}
+
+footer{
+  margin-bottom: 1em;
+}
