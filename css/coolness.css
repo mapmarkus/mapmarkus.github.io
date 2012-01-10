@@ -21,10 +21,6 @@ em{
 strong{
   font-weight: bold;
 }
-em, strong{
-  background: #ADC483;
-  padding: .1em .2em;
-}
 
 a, a:visited, a:link{
   color: #EEE5C7;
@@ -65,8 +61,8 @@ header h1{
   );
   background-image: -moz-linear-gradient(
       left top,
-      hsla(179, 23%, 64%, .5) 0,
-      hsla(179, 23%, 64%, 1)  1
+      hsla(179, 23%, 64%, .5) 0%,
+      hsla(179, 23%, 64%, 1)  100%
   );
   -moz-border-radius: .4em;
   border-radius: .4em;
