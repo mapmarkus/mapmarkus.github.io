@@ -15,6 +15,17 @@ body{
   background-color: #ABD1C9;
 }
 
+em{
+  font-style: italic;
+}
+strong{
+  font-weight: bold;
+}
+em, strong{
+  background: #ADC483;
+  padding: .1em .2em;
+}
+
 a, a:visited, a:link{
   color: #EEE5C7;
   background: rgba(218,72,69,.3);
@@ -79,7 +90,29 @@ article.contents{
   padding: 1em 0;
   margin: 1em 0 2em;
 }
+article.list{
+  font-size: 1.35em;
+}
+article.text{
+  padding: 2em 0;
+}
+article.text h2{
+  margin: 0 0 1em;
+}
+article.text h3{
+  font-size: 1.5em;
+  margin: 1.5em 0 1em;
+}
+article.text p{
+  font-size: 1.1em;
+  font-family: "Lucida Sans", arial, sans-serif;
+  line-height: 1.6;
+  margin: .4em 0 .8em;
+}
 
 footer{
   margin-bottom: 1em;
+}
+footer a {
+  white-space: nowrap;
 }
