@@ -3,7 +3,7 @@
   Main colors (pastel):
     #ABD1C9 #8DB7B6 -> blue
     #EEE5C7 -> beige
-    #DA4845 #D45855 -> red
+    #DA4845 #D45855 #843E4D -> shades of red
     #98C5D0 -> vivid blue
     #DA674F -> orange
     #578894 -> dark blue
@@ -58,6 +58,12 @@ header{
 header h1{
   padding: 1em 0;
   text-shadow: 0 2px 1px #351C20;
+}
+header h1 span{
+  display: block;
+  font-size: .7em;
+  color: #843E4D;
+  text-shadow: none;
 }
 
 #intro{
