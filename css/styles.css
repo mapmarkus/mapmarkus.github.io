@@ -82,4 +82,8 @@ h1 em {
   background-color: hsla(94, 67%, 56%, 0.6);
 }
 
+.profession {
+  border-bottom: 1px dotted hsla(94, 58%, 33%, 0.6)
+  cursor: help;
+}
 
