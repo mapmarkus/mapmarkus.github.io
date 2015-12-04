@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   display: table;
-
+  background-color: rgb(159, 255, 231);
 }
 
 em {
@@ -21,62 +21,37 @@ strong {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 1.4em;
+}
+
 p {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid hsl(44, 53%, 77%);
+  border-bottom: 1px solid hsl(290, 53%, 77%);
+}
 
+a:hover {
+  border-color: #FFF;
 }
 
 .container {
+  text-align: center;
   width: 25em;
   margin: 0 auto;
   padding: 3em 0;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 100;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+  color: hsl(270, 10, 10);
 }
 
-.intro {
-  padding: 0;
-  margin: 0 0 2rem;
-  font-weight: 100;
-  font-size: 1.5rem;
+.container img {
+  width: 250px;
 }
-
-.tagline {
-  font-weight: 100;
-
-  p:nth-child(1) {
-    font-size: 2.4em;
-    text-transform: uppercase;
-  }
-}
-
-.links {
-    list-style: none;
-    float: left;
-    width: 100%;
-    margin: 0 0 1rem 0;
-    padding: 0;
-    font-size: 0.9rem;
-}
-.links li {
-    float: left;
-    display:  block;
-    margin: 1rem 1rem 0 0;
-}
-.links a {
-    background-color: hsla(15, 27%, 47%, 0.2);
-    padding: .5rem;
-    display: block;
-    font-weight: 400;
-}
-
-.links a:hover{
-  background-color: hsla(44, 71%, 55%, 0.2);
-}
-
