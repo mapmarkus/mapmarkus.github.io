@@ -3,40 +3,37 @@ html, body{
   height: 100%;
   margin: 0;
   font: 16px/1.5 "Open Sans", sans-serif;
-  min-width: 1024px;
-  min-height: 768px;
 }
 
 body {
   color: hsl(343, 5%, 27%);
-  background-image: url(/images/ponte-xuvia.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  display: table;
 
 }
 
-em{
+em {
   font-style: italic;
 }
-strong{
+strong {
   font-weight: bold;
 }
+
 p {
     margin: 1rem 0;
 }
+
 a {
   color: inherit;
   text-decoration: none;
   border-bottom: 1px solid hsl(44, 53%, 77%);
 
 }
-h1 em {
-    font-style: normal;
-}
 
 .container {
-  width: 50%;
+  width: 25em;
   margin: 0 auto;
   padding: 3em 0;
   font-size: 1.25rem;
@@ -51,18 +48,13 @@ h1 em {
 }
 
 .tagline {
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.thanks {
-  clear: both;
-  padding: 3rem 0 0;
   font-weight: 100;
-  font-size: .85rem;
-  font-style: italic;
-}
 
+  p:nth-child(1) {
+    font-size: 2.4em;
+    text-transform: uppercase;
+  }
+}
 
 .links {
     list-style: none;
