@@ -6,23 +6,13 @@ html, body{
 }
 
 body {
-  color: hsl(343, 5%, 27%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: table;
-  background-color: rgb(159, 255, 231);
-}
-
-em {
-  font-style: italic;
-}
-strong {
-  font-weight: bold;
+  color: black;
+  display: flex;
+  background-color: hsl(274deg, 19%, 70%);
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 p {
@@ -32,11 +22,11 @@ p {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid hsl(290, 53%, 77%);
+  border-bottom: 2px solid hsl(50deg, 53%, 80%);
 }
 
 a:hover {
-  border-color: #FFF;
+  border-color: hsl(20deg, 55%, 80%);
 }
 
 .container {
@@ -53,5 +43,17 @@ a:hover {
 }
 
 .container img {
-  width: 250px;
+  width: 400px;
+}
+
+.position {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  padding: 1rem;
+  border-radius: 2em;
+  background-color: hsla(263deg, 74%, 49%, 10%);
+}
+
+.links {
+  margin-top: 2em;
 }
